@@ -1,0 +1,199 @@
+/* General Styles */
+body {
+    background-color: #f696bb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #a84f74;
+    color: white;
+    border-bottom: 5px solid #bc6186;
+}
+
+header img {
+   width: 340px; 
+   height: auto; 
+   display: block; 
+    border-radius: 10%;
+   margin: 20px auto 0;
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+header p {
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+/* Image and text of section about me*/
+#about {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.about-container {
+    display: flex;
+    align-items: center; 
+}
+
+p {
+    font-size: 20px; 
+    line-height: 1.6; 
+}
+
+/* Section of curriculum*/
+#curriculum, #spacecamp, #prepatec {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 200px; 
+    height: auto; 
+}
+
+.curriculum-item img {
+    max-width: 80%;
+    height: auto; 
+    margin-top: 20px; 
+}
+
+/* Section to go portfolio*/
+#portfolio {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.portfolio-container {
+    display: flex;
+    align-items: center; 
+    flex-direction: row; 
+}
+
+p {
+    font-size: 20px; 
+    line-height: 1.6; 
+    margin-left: 20px; 
+}
+
+.portfolio-button-index {
+    display: inline-block;
+    background-color: #a84f74; 
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin-top: 20px; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.portfolio-button-index:hover {
+    background-color: #cf7398;
+}
+
+
+/* Navigation Bar of portfolio */
+nav {
+    background-color: #a84f74;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav img {
+    display: block; 
+    margin: 0 auto 20px; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #bc6186;
+}
+
+/* Sections */
+section {
+    margin: 10px auto;
+    max-width: 1000px;
+    padding: 29px;
+    background: white;
+    border-radius: 10px;
+
+}
+
+section h2 {
+    color: #a84f74;
+    text-align: center;
+}
+
+section p {
+    text-align: left;
+}
+
+/* Button to go to my github */
+.portfolio-button {
+    display: inline-block;
+    background-color: #a84f74;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.portfolio-button:hover {
+    background-color: #cf7398;
+}
+
+/* Iamgen of projects */
+#projects {
+    width: 150px; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto 0; 
+}
+
+
+ul li {
+    margin-bottom: 20px; 
+}
+
+ul li a {
+    text-decoration: none;
+    color: #a84f74; 
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #cf7398; 
+}
